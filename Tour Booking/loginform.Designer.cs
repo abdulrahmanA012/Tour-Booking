@@ -77,7 +77,7 @@
             // pcblogoarrow
             // 
             pcblogoarrow.Image = (Image)resources.GetObject("pcblogoarrow.Image");
-            pcblogoarrow.Location = new Point(3, 96);
+            pcblogoarrow.Location = new Point(3, 98);
             pcblogoarrow.Name = "pcblogoarrow";
             pcblogoarrow.Size = new Size(67, 57);
             pcblogoarrow.SizeMode = PictureBoxSizeMode.Zoom;
@@ -106,9 +106,9 @@
             // 
             // btnopengroupboxsignup
             // 
-            btnopengroupboxsignup.Location = new Point(76, 107);
+            btnopengroupboxsignup.Location = new Point(76, 110);
             btnopengroupboxsignup.Name = "btnopengroupboxsignup";
-            btnopengroupboxsignup.Size = new Size(94, 29);
+            btnopengroupboxsignup.Size = new Size(94, 33);
             btnopengroupboxsignup.TabIndex = 2;
             btnopengroupboxsignup.Text = "Sign up";
             btnopengroupboxsignup.UseVisualStyleBackColor = true;
@@ -240,6 +240,8 @@
             // grbsignin
             // 
             grbsignin.BackColor = Color.Gray;
+            grbsignin.BackgroundImage = (Image)resources.GetObject("grbsignin.BackgroundImage");
+            grbsignin.BackgroundImageLayout = ImageLayout.Stretch;
             grbsignin.Controls.Add(lblusername);
             grbsignin.Controls.Add(txtusername);
             grbsignin.Controls.Add(txtpassword);
@@ -255,7 +257,8 @@
             // lblusername
             // 
             lblusername.AutoSize = true;
-            lblusername.Location = new Point(24, 171);
+            lblusername.BackColor = Color.Gray;
+            lblusername.Location = new Point(24, 170);
             lblusername.Name = "lblusername";
             lblusername.Size = new Size(78, 20);
             lblusername.TabIndex = 18;

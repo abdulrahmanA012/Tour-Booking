@@ -61,7 +61,7 @@
             pnlmainform.Dock = DockStyle.Left;
             pnlmainform.Location = new Point(0, 0);
             pnlmainform.Name = "pnlmainform";
-            pnlmainform.Size = new Size(218, 450);
+            pnlmainform.Size = new Size(218, 419);
             pnlmainform.TabIndex = 1;
             // 
             // btnbooking
@@ -133,9 +133,9 @@
             // 
             // btnsearch
             // 
-            btnsearch.Location = new Point(73, 150);
+            btnsearch.Location = new Point(70, 154);
             btnsearch.Name = "btnsearch";
-            btnsearch.Size = new Size(149, 26);
+            btnsearch.Size = new Size(145, 26);
             btnsearch.TabIndex = 2;
             btnsearch.Text = "Search about travel";
             btnsearch.TextAlign = ContentAlignment.MiddleLeft;
@@ -144,9 +144,9 @@
             // pcbmainform
             // 
             pcbmainform.Image = (Image)resources.GetObject("pcbmainform.Image");
-            pcbmainform.Location = new Point(218, 0);
+            pcbmainform.Location = new Point(215, 0);
             pcbmainform.Name = "pcbmainform";
-            pcbmainform.Size = new Size(585, 457);
+            pcbmainform.Size = new Size(518, 419);
             pcbmainform.SizeMode = PictureBoxSizeMode.StretchImage;
             pcbmainform.TabIndex = 8;
             pcbmainform.TabStop = false;
@@ -155,7 +155,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackgroundImageLayout = ImageLayout.Zoom;
+            ClientSize = new Size(733, 419);
             Controls.Add(pcbmainform);
             Controls.Add(pnlmainform);
             Name = "mainform";
