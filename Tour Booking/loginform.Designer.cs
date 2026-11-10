@@ -128,6 +128,8 @@
             // grbsignup
             // 
             grbsignup.BackColor = Color.Gray;
+            grbsignup.BackgroundImage = (Image)resources.GetObject("grbsignup.BackgroundImage");
+            grbsignup.BackgroundImageLayout = ImageLayout.Stretch;
             grbsignup.Controls.Add(txtsignuppassword);
             grbsignup.Controls.Add(lblsigninpassword);
             grbsignup.Controls.Add(lblphonenumber);

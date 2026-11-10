@@ -37,19 +37,18 @@
             pcbsearch = new PictureBox();
             btnprofie = new Button();
             pcbmanagebooking = new PictureBox();
-            btnsearch = new Button();
-            pcbmainform = new PictureBox();
+            btnsearchmainform = new Button();
+            pnlphotomainform = new Panel();
             pnlmainform.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pcbbooking).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pcbprofile).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pcbsearch).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pcbmanagebooking).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pcbmainform).BeginInit();
             SuspendLayout();
             // 
             // pnlmainform
             // 
-            pnlmainform.BackColor = Color.FromArgb(64, 64, 64);
+            pnlmainform.BackColor = Color.FromArgb(40, 40, 40);
             pnlmainform.Controls.Add(btnbooking);
             pnlmainform.Controls.Add(pcbbooking);
             pnlmainform.Controls.Add(btnmanagebooking);
@@ -57,7 +56,7 @@
             pnlmainform.Controls.Add(pcbsearch);
             pnlmainform.Controls.Add(btnprofie);
             pnlmainform.Controls.Add(pcbmanagebooking);
-            pnlmainform.Controls.Add(btnsearch);
+            pnlmainform.Controls.Add(btnsearchmainform);
             pnlmainform.Dock = DockStyle.Left;
             pnlmainform.Location = new Point(0, 0);
             pnlmainform.Name = "pnlmainform";
@@ -120,6 +119,7 @@
             btnprofie.TabIndex = 4;
             btnprofie.Text = "Profie";
             btnprofie.UseVisualStyleBackColor = true;
+            btnprofie.Click += btnprofie_Click;
             // 
             // pcbmanagebooking
             // 
@@ -131,33 +131,33 @@
             pcbmanagebooking.TabIndex = 0;
             pcbmanagebooking.TabStop = false;
             // 
-            // btnsearch
+            // btnsearchmainform
             // 
-            btnsearch.Location = new Point(70, 154);
-            btnsearch.Name = "btnsearch";
-            btnsearch.Size = new Size(145, 26);
-            btnsearch.TabIndex = 2;
-            btnsearch.Text = "Search about travel";
-            btnsearch.TextAlign = ContentAlignment.MiddleLeft;
-            btnsearch.UseVisualStyleBackColor = true;
+            btnsearchmainform.Location = new Point(70, 154);
+            btnsearchmainform.Name = "btnsearchmainform";
+            btnsearchmainform.Size = new Size(145, 26);
+            btnsearchmainform.TabIndex = 2;
+            btnsearchmainform.Text = "Search about travel";
+            btnsearchmainform.TextAlign = ContentAlignment.MiddleLeft;
+            btnsearchmainform.UseVisualStyleBackColor = true;
+            btnsearchmainform.Click += btnsearchmainform_Click;
             // 
-            // pcbmainform
+            // pnlphotomainform
             // 
-            pcbmainform.Image = (Image)resources.GetObject("pcbmainform.Image");
-            pcbmainform.Location = new Point(215, 0);
-            pcbmainform.Name = "pcbmainform";
-            pcbmainform.Size = new Size(518, 419);
-            pcbmainform.SizeMode = PictureBoxSizeMode.StretchImage;
-            pcbmainform.TabIndex = 8;
-            pcbmainform.TabStop = false;
+            pnlphotomainform.BackgroundImage = (Image)resources.GetObject("pnlphotomainform.BackgroundImage");
+            pnlphotomainform.BackgroundImageLayout = ImageLayout.Stretch;
+            pnlphotomainform.Location = new Point(215, 0);
+            pnlphotomainform.Name = "pnlphotomainform";
+            pnlphotomainform.Size = new Size(519, 420);
+            pnlphotomainform.TabIndex = 2;
             // 
             // mainform
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImageLayout = ImageLayout.Zoom;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(733, 419);
-            Controls.Add(pcbmainform);
+            Controls.Add(pnlphotomainform);
             Controls.Add(pnlmainform);
             Name = "mainform";
             Text = "Main Form";
@@ -167,7 +167,6 @@
             ((System.ComponentModel.ISupportInitialize)pcbprofile).EndInit();
             ((System.ComponentModel.ISupportInitialize)pcbsearch).EndInit();
             ((System.ComponentModel.ISupportInitialize)pcbmanagebooking).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pcbmainform).EndInit();
             ResumeLayout(false);
         }
 
@@ -177,11 +176,11 @@
         private PictureBox pcbsearch;
         private Button btnprofie;
         private PictureBox pcbmanagebooking;
-        private Button btnsearch;
+        private Button btnsearchmainform;
         private Button btnmanagebooking;
         private PictureBox pcbprofile;
-        private PictureBox pcbmainform;
         private PictureBox pcbbooking;
         private Button btnbooking;
+        private Panel pnlphotomainform;
     }
 }

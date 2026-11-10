@@ -121,7 +121,7 @@
   <data name="pcbbooking.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAEMWSURBVHhe7Z15
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAEMWSURBVHhe7Z15
         mF1Fmbg7IIqOM4jLoBiSU6dbUAO44I4OKKio4y4oLiiuzPxmdGbcHX1scRlXkKRPnW5CCDvS7JvsCBj2
         sBP2RYFAIJDuPnVu7931e76bELHOSbpv3+0s7/s87z99b997lqr66tap+qqjAwCyTb/d0gvil/pL4l38
         nngvpc2+Koi+onT0baXNz1VoAk+b431tTlfaXKS0WaG0Wam0uUfp+AGlzTrHcaWNdRxLvq/6v/ds+Cz5
@@ -547,7 +547,7 @@
   <data name="pcbsearch.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vgAADr4B6kKxwAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAGjKSURBVHhe7Z0J
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAGjKSURBVHhe7Z0J
         dJxXfbdJAoEkkIVA2HdI2MpeGhqgKdASSqFASaDwASUfmAL1l1iafdNrrYZAIGEpLgXaNIA9trxEm2V5
         t7zLWiw7u5N4ifdFchJLc/9Xut+ZkbX97x1t953RLL/fOc+BA6enRO+d93k0muV5z8MwDMMwDMMwDMMw
         DMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMw
@@ -1001,7 +1001,7 @@
   <data name="pcbmanagebooking.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAACwPSURBVHhe7d0L
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAACwPSURBVHhe7d0L
         0O1XWd/xXwhyDxflkoSLY8B4G3BwpHJT65W2ozMIhAJaxaoIjhQFWhFBLjrCqIGiSLkIFBSsqB1R0Rkt
         Vi2BAAHCzbFjEQsiQuQiCZoQwM7q2cx79u+s8+b899p7redZ/+935jPDhGTt/7PWfvd7zrvfvbdERERE
         RERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERE
@@ -1193,7 +1193,7 @@
         AABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pcbmainform.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pnlphotomainform.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAQFBQkGCQkJCQkKCAkICgsLCgoLCwwKCwoLCgwMDAwNDQwM
         DAwMDw4PDAwNDw8PDw0OERERDhEQEBETERMREQ3/2wBDAQQEBAgGCAcICAcIBggGCAgIBwcICAkHBwcH

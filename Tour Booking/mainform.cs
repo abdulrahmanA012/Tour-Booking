@@ -21,5 +21,19 @@ namespace Tour_Booking
         {
             Application.Exit();
         }
+
+        private void btnprofie_Click(object sender, EventArgs e)
+        {
+            profile p = new profile();
+            p.Show();
+            this.Hide();
+        }
+
+        private void btnsearchmainform_Click(object sender, EventArgs e)
+        {
+            search s = new search();
+            s.Show();
+            this.Hide();
+        }
     }
 }
