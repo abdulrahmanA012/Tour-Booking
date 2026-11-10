@@ -43,10 +43,7 @@
             txtprofilefirstname = new TextBox();
             btnreset = new Button();
             btnupdate = new Button();
-            pictureBox1 = new PictureBox();
-            lblwelcome = new Label();
             lblusername = new Label();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // lblprofilephone
@@ -163,25 +160,6 @@
             btnupdate.Text = "Update";
             btnupdate.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(12, 67);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(171, 127);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 1;
-            pictureBox1.TabStop = false;
-            // 
-            // lblwelcome
-            // 
-            lblwelcome.AutoSize = true;
-            lblwelcome.Location = new Point(67, 197);
-            lblwelcome.Name = "lblwelcome";
-            lblwelcome.Size = new Size(75, 20);
-            lblwelcome.TabIndex = 4;
-            lblwelcome.Text = "Welcome ";
-            // 
             // lblusername
             // 
             lblusername.AutoSize = true;
@@ -201,11 +179,8 @@
             Controls.Add(txtprofilephone);
             Controls.Add(btnupdate);
             Controls.Add(lblprofilephone);
-            Controls.Add(lblusername);
-            Controls.Add(lblwelcome);
             Controls.Add(txtprofileage);
             Controls.Add(lblprofileage);
-            Controls.Add(pictureBox1);
             Controls.Add(lblprofilepassword);
             Controls.Add(txtprofilepassword);
             Controls.Add(lblprofileemail);
@@ -217,15 +192,12 @@
             Name = "profile";
             Text = "Profile";
             FormClosed += profile_FormClosed;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
         private Button btnupdate;
-        private PictureBox pictureBox1;
-        private Label lblwelcome;
         private Label lblprofilefristname;
         private Label lblprofilelastname;
         private Button btnreset;

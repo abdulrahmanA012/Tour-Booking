@@ -116,10 +116,11 @@
             // 
             // pcbloginform
             // 
+            pcbloginform.Dock = DockStyle.Fill;
             pcbloginform.Image = Properties.Resources.WhatsApp_Image_2026_11_06_at_10_01_48_AM;
-            pcbloginform.Location = new Point(194, 0);
+            pcbloginform.Location = new Point(200, 0);
             pcbloginform.Name = "pcbloginform";
-            pcbloginform.Size = new Size(690, 489);
+            pcbloginform.Size = new Size(685, 489);
             pcbloginform.SizeMode = PictureBoxSizeMode.StretchImage;
             pcbloginform.TabIndex = 6;
             pcbloginform.TabStop = false;
@@ -141,9 +142,9 @@
             grbsignup.Controls.Add(txtemale);
             grbsignup.Controls.Add(txtfristname);
             grbsignup.Controls.Add(btnsignup);
-            grbsignup.Location = new Point(547, 61);
+            grbsignup.Location = new Point(559, 0);
             grbsignup.Name = "grbsignup";
-            grbsignup.Size = new Size(326, 396);
+            grbsignup.Size = new Size(326, 489);
             grbsignup.TabIndex = 6;
             grbsignup.TabStop = false;
             grbsignup.Visible = false;
@@ -249,9 +250,9 @@
             grbsignin.Controls.Add(txtpassword);
             grbsignin.Controls.Add(lblpassword);
             grbsignin.Controls.Add(btnsignin);
-            grbsignin.Location = new Point(215, 61);
+            grbsignin.Location = new Point(200, 0);
             grbsignin.Name = "grbsignin";
-            grbsignin.Size = new Size(326, 396);
+            grbsignin.Size = new Size(353, 489);
             grbsignin.TabIndex = 17;
             grbsignin.TabStop = false;
             grbsignin.Visible = false;
@@ -271,7 +272,7 @@
             txtusername.Location = new Point(107, 167);
             txtusername.Name = "txtusername";
             txtusername.PlaceholderText = "Enter UserName";
-            txtusername.Size = new Size(125, 27);
+            txtusername.Size = new Size(199, 27);
             txtusername.TabIndex = 17;
             // 
             // txtpassword
@@ -280,7 +281,7 @@
             txtpassword.Name = "txtpassword";
             txtpassword.PasswordChar = '*';
             txtpassword.PlaceholderText = "************";
-            txtpassword.Size = new Size(125, 27);
+            txtpassword.Size = new Size(199, 27);
             txtpassword.TabIndex = 16;
             // 
             // lblpassword

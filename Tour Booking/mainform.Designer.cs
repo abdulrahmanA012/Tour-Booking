@@ -32,18 +32,18 @@
             pnlmainform = new Panel();
             btnbooking = new Button();
             pcbbooking = new PictureBox();
-            btnmanagebooking = new Button();
+            btntripmanagement = new Button();
             pcbprofile = new PictureBox();
             pcbsearch = new PictureBox();
             btnprofie = new Button();
-            pcbmanagebooking = new PictureBox();
+            pcbtripmanagement = new PictureBox();
             btnsearchmainform = new Button();
             pnlphotomainform = new Panel();
             pnlmainform.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pcbbooking).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pcbprofile).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pcbsearch).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pcbmanagebooking).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcbtripmanagement).BeginInit();
             SuspendLayout();
             // 
             // pnlmainform
@@ -51,11 +51,11 @@
             pnlmainform.BackColor = Color.FromArgb(40, 40, 40);
             pnlmainform.Controls.Add(btnbooking);
             pnlmainform.Controls.Add(pcbbooking);
-            pnlmainform.Controls.Add(btnmanagebooking);
+            pnlmainform.Controls.Add(btntripmanagement);
             pnlmainform.Controls.Add(pcbprofile);
             pnlmainform.Controls.Add(pcbsearch);
             pnlmainform.Controls.Add(btnprofie);
-            pnlmainform.Controls.Add(pcbmanagebooking);
+            pnlmainform.Controls.Add(pcbtripmanagement);
             pnlmainform.Controls.Add(btnsearchmainform);
             pnlmainform.Dock = DockStyle.Left;
             pnlmainform.Location = new Point(0, 0);
@@ -71,6 +71,7 @@
             btnbooking.TabIndex = 9;
             btnbooking.Text = "Booking";
             btnbooking.UseVisualStyleBackColor = true;
+            btnbooking.Click += btnbooking_Click;
             // 
             // pcbbooking
             // 
@@ -82,14 +83,15 @@
             pcbbooking.TabIndex = 8;
             pcbbooking.TabStop = false;
             // 
-            // btnmanagebooking
+            // btntripmanagement
             // 
-            btnmanagebooking.Location = new Point(73, 308);
-            btnmanagebooking.Name = "btnmanagebooking";
-            btnmanagebooking.Size = new Size(136, 29);
-            btnmanagebooking.TabIndex = 7;
-            btnmanagebooking.Text = "Manage Booking";
-            btnmanagebooking.UseVisualStyleBackColor = true;
+            btntripmanagement.Location = new Point(73, 308);
+            btntripmanagement.Name = "btntripmanagement";
+            btntripmanagement.Size = new Size(136, 29);
+            btntripmanagement.TabIndex = 7;
+            btntripmanagement.Text = "Trip Management";
+            btntripmanagement.UseVisualStyleBackColor = true;
+            btntripmanagement.Click += btntripmanagement_Click;
             // 
             // pcbprofile
             // 
@@ -121,15 +123,15 @@
             btnprofie.UseVisualStyleBackColor = true;
             btnprofie.Click += btnprofie_Click;
             // 
-            // pcbmanagebooking
+            // pcbtripmanagement
             // 
-            pcbmanagebooking.Image = (Image)resources.GetObject("pcbmanagebooking.Image");
-            pcbmanagebooking.Location = new Point(0, 294);
-            pcbmanagebooking.Name = "pcbmanagebooking";
-            pcbmanagebooking.Size = new Size(67, 57);
-            pcbmanagebooking.SizeMode = PictureBoxSizeMode.Zoom;
-            pcbmanagebooking.TabIndex = 0;
-            pcbmanagebooking.TabStop = false;
+            pcbtripmanagement.Image = (Image)resources.GetObject("pcbtripmanagement.Image");
+            pcbtripmanagement.Location = new Point(0, 294);
+            pcbtripmanagement.Name = "pcbtripmanagement";
+            pcbtripmanagement.Size = new Size(67, 57);
+            pcbtripmanagement.SizeMode = PictureBoxSizeMode.Zoom;
+            pcbtripmanagement.TabIndex = 0;
+            pcbtripmanagement.TabStop = false;
             // 
             // btnsearchmainform
             // 
@@ -146,9 +148,10 @@
             // 
             pnlphotomainform.BackgroundImage = (Image)resources.GetObject("pnlphotomainform.BackgroundImage");
             pnlphotomainform.BackgroundImageLayout = ImageLayout.Stretch;
-            pnlphotomainform.Location = new Point(215, 0);
+            pnlphotomainform.Dock = DockStyle.Fill;
+            pnlphotomainform.Location = new Point(218, 0);
             pnlphotomainform.Name = "pnlphotomainform";
-            pnlphotomainform.Size = new Size(519, 420);
+            pnlphotomainform.Size = new Size(515, 419);
             pnlphotomainform.TabIndex = 2;
             // 
             // mainform
@@ -166,7 +169,7 @@
             ((System.ComponentModel.ISupportInitialize)pcbbooking).EndInit();
             ((System.ComponentModel.ISupportInitialize)pcbprofile).EndInit();
             ((System.ComponentModel.ISupportInitialize)pcbsearch).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pcbmanagebooking).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcbtripmanagement).EndInit();
             ResumeLayout(false);
         }
 
@@ -175,9 +178,9 @@
         private Panel pnlmainform;
         private PictureBox pcbsearch;
         private Button btnprofie;
-        private PictureBox pcbmanagebooking;
+        private PictureBox pcbtripmanagement;
         private Button btnsearchmainform;
-        private Button btnmanagebooking;
+        private Button btntripmanagement;
         private PictureBox pcbprofile;
         private PictureBox pcbbooking;
         private Button btnbooking;

@@ -105,10 +105,10 @@
             dgvsearch.BackgroundColor = Color.White;
             dgvsearch.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvsearch.Columns.AddRange(new DataGridViewColumn[] { FLGHT_NUM, SOURCE_PLACE, DEC_PLACE, LUNCH_TIME, NUM_OF_STATE, PRICE });
-            dgvsearch.Location = new Point(0, 1);
+            dgvsearch.Location = new Point(0, 0);
             dgvsearch.Name = "dgvsearch";
             dgvsearch.RowHeadersWidth = 51;
-            dgvsearch.Size = new Size(525, 397);
+            dgvsearch.Size = new Size(525, 398);
             dgvsearch.TabIndex = 10;
             dgvsearch.Visible = false;
             // 

@@ -35,6 +35,24 @@ namespace Tour_Booking
 
         private void btnsignin_Click(object sender, EventArgs e)
         {
+            if (txtusername.Text == "" && txtpassword.Text == "")
+            {
+                MessageBox.Show("Please enter your username and password.");
+                txtusername.Focus();
+                return;
+            }
+            else if (txtusername.Text == "")
+            {
+                MessageBox.Show("Please enter your username.");
+                txtusername.Focus();
+                return; 
+            }
+            else if (txtpassword.Text == "")
+            {
+                MessageBox.Show("Please enter your password.");
+                txtpassword.Focus();
+                return;
+            }
             mainform m = new mainform();
             m.Show();
             this.Hide();
