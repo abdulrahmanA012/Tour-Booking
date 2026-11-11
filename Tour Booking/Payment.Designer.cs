@@ -1,13 +1,16 @@
-﻿using System;
-using System.Drawing;
-using System.Windows.Forms;
-
-namespace Tour_booking_update
+﻿namespace Tour_Booking
 {
-    partial class Payment
+    partial class payment
     {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -19,6 +22,10 @@ namespace Tour_booking_update
 
         #region Windows Form Designer generated code
 
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
         private void InitializeComponent()
         {
             lblTitle = new Label();
@@ -48,14 +55,13 @@ namespace Tour_booking_update
             lblAmount = new Label();
             txtAmount = new TextBox();
             btnConfirm = new Button();
-            btnsubmet = new Button();
             SuspendLayout();
             // 
             // lblTitle
             // 
             lblTitle.Font = new Font("Segoe UI Semibold", 20F, FontStyle.Bold);
             lblTitle.ForeColor = Color.FromArgb(30, 30, 30);
-            lblTitle.Location = new Point(177, 11);
+            lblTitle.Location = new Point(177, 9);
             lblTitle.Name = "lblTitle";
             lblTitle.Size = new Size(155, 62);
             lblTitle.TabIndex = 28;
@@ -65,7 +71,7 @@ namespace Tour_booking_update
             // 
             lblPersonal.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             lblPersonal.ForeColor = Color.FromArgb(50, 50, 50);
-            lblPersonal.Location = new Point(23, 74);
+            lblPersonal.Location = new Point(23, 59);
             lblPersonal.Name = "lblPersonal";
             lblPersonal.Size = new Size(286, 29);
             lblPersonal.TabIndex = 26;
@@ -76,7 +82,7 @@ namespace Tour_booking_update
             lblName.AutoSize = true;
             lblName.Font = new Font("Segoe UI", 9F);
             lblName.ForeColor = Color.FromArgb(80, 80, 80);
-            lblName.Location = new Point(21, 111);
+            lblName.Location = new Point(21, 89);
             lblName.Name = "lblName";
             lblName.Size = new Size(80, 20);
             lblName.TabIndex = 25;
@@ -87,7 +93,7 @@ namespace Tour_booking_update
             txtFirst.BackColor = SystemColors.Info;
             txtFirst.BorderStyle = BorderStyle.FixedSingle;
             txtFirst.Font = new Font("Segoe UI", 10F);
-            txtFirst.Location = new Point(25, 140);
+            txtFirst.Location = new Point(25, 112);
             txtFirst.Margin = new Padding(3, 4, 3, 4);
             txtFirst.Name = "txtFirst";
             txtFirst.PlaceholderText = "First Name";
@@ -100,7 +106,7 @@ namespace Tour_booking_update
             txtLast.BorderStyle = BorderStyle.FixedSingle;
             txtLast.Font = new Font("Segoe UI", 10F);
             txtLast.ForeColor = SystemColors.MenuText;
-            txtLast.Location = new Point(280, 140);
+            txtLast.Location = new Point(280, 112);
             txtLast.Margin = new Padding(3, 4, 3, 4);
             txtLast.Name = "txtLast";
             txtLast.PlaceholderText = "Last Name";
@@ -111,7 +117,7 @@ namespace Tour_booking_update
             // 
             lblEmail.AutoSize = true;
             lblEmail.Font = new Font("Segoe UI", 9F);
-            lblEmail.Location = new Point(25, 189);
+            lblEmail.Location = new Point(25, 151);
             lblEmail.Name = "lblEmail";
             lblEmail.Size = new Size(50, 20);
             lblEmail.TabIndex = 22;
@@ -121,7 +127,7 @@ namespace Tour_booking_update
             // 
             txtEmail.BorderStyle = BorderStyle.FixedSingle;
             txtEmail.Font = new Font("Segoe UI", 10F);
-            txtEmail.Location = new Point(25, 216);
+            txtEmail.Location = new Point(25, 173);
             txtEmail.Margin = new Padding(3, 4, 3, 4);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(240, 30);
@@ -131,7 +137,7 @@ namespace Tour_booking_update
             // 
             lblPhone.AutoSize = true;
             lblPhone.Font = new Font("Segoe UI", 9F);
-            lblPhone.Location = new Point(280, 189);
+            lblPhone.Location = new Point(280, 151);
             lblPhone.Name = "lblPhone";
             lblPhone.Size = new Size(54, 20);
             lblPhone.TabIndex = 20;
@@ -141,7 +147,7 @@ namespace Tour_booking_update
             // 
             txtPhone.BorderStyle = BorderStyle.FixedSingle;
             txtPhone.Font = new Font("Segoe UI", 10F);
-            txtPhone.Location = new Point(280, 216);
+            txtPhone.Location = new Point(280, 173);
             txtPhone.Margin = new Padding(3, 4, 3, 4);
             txtPhone.Name = "txtPhone";
             txtPhone.Size = new Size(240, 30);
@@ -151,7 +157,7 @@ namespace Tour_booking_update
             // 
             lblAddress.AutoSize = true;
             lblAddress.Font = new Font("Segoe UI", 9F);
-            lblAddress.Location = new Point(25, 266);
+            lblAddress.Location = new Point(25, 213);
             lblAddress.Name = "lblAddress";
             lblAddress.Size = new Size(62, 20);
             lblAddress.TabIndex = 18;
@@ -161,7 +167,7 @@ namespace Tour_booking_update
             // 
             txtStreet1.BorderStyle = BorderStyle.FixedSingle;
             txtStreet1.Font = new Font("Segoe UI", 10F);
-            txtStreet1.Location = new Point(25, 294);
+            txtStreet1.Location = new Point(25, 235);
             txtStreet1.Margin = new Padding(3, 4, 3, 4);
             txtStreet1.Name = "txtStreet1";
             txtStreet1.PlaceholderText = "Street Address";
@@ -172,7 +178,7 @@ namespace Tour_booking_update
             // 
             txtCity.BorderStyle = BorderStyle.FixedSingle;
             txtCity.Font = new Font("Segoe UI", 10F);
-            txtCity.Location = new Point(25, 336);
+            txtCity.Location = new Point(25, 269);
             txtCity.Margin = new Padding(3, 4, 3, 4);
             txtCity.Name = "txtCity";
             txtCity.PlaceholderText = "City";
@@ -183,7 +189,7 @@ namespace Tour_booking_update
             // 
             txtPostal.BorderStyle = BorderStyle.FixedSingle;
             txtPostal.Font = new Font("Segoe UI", 10F);
-            txtPostal.Location = new Point(197, 336);
+            txtPostal.Location = new Point(197, 269);
             txtPostal.Margin = new Padding(3, 4, 3, 4);
             txtPostal.Name = "txtPostal";
             txtPostal.PlaceholderText = "Postal Code";
@@ -197,7 +203,7 @@ namespace Tour_booking_update
             cmbCountry.Font = new Font("Segoe UI", 10F);
             cmbCountry.FormattingEnabled = true;
             cmbCountry.Items.AddRange(new object[] { "Egypt", "Romania", "United States", "United Kingdom", "Germany", "France" });
-            cmbCountry.Location = new Point(345, 336);
+            cmbCountry.Location = new Point(345, 269);
             cmbCountry.Margin = new Padding(3, 4, 3, 4);
             cmbCountry.Name = "cmbCountry";
             cmbCountry.Size = new Size(174, 31);
@@ -206,7 +212,7 @@ namespace Tour_booking_update
             // lblCardSection
             // 
             lblCardSection.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
-            lblCardSection.Location = new Point(23, 400);
+            lblCardSection.Location = new Point(23, 320);
             lblCardSection.Name = "lblCardSection";
             lblCardSection.Size = new Size(286, 29);
             lblCardSection.TabIndex = 13;
@@ -216,7 +222,7 @@ namespace Tour_booking_update
             // 
             lblCardNumber.AutoSize = true;
             lblCardNumber.Font = new Font("Segoe UI", 9F);
-            lblCardNumber.Location = new Point(25, 440);
+            lblCardNumber.Location = new Point(25, 352);
             lblCardNumber.Name = "lblCardNumber";
             lblCardNumber.Size = new Size(102, 20);
             lblCardNumber.TabIndex = 12;
@@ -226,7 +232,7 @@ namespace Tour_booking_update
             // 
             txtCardNumber.BorderStyle = BorderStyle.FixedSingle;
             txtCardNumber.Font = new Font("Segoe UI", 11F);
-            txtCardNumber.Location = new Point(25, 466);
+            txtCardNumber.Location = new Point(25, 373);
             txtCardNumber.Margin = new Padding(3, 4, 3, 4);
             txtCardNumber.MaxLength = 19;
             txtCardNumber.Name = "txtCardNumber";
@@ -237,7 +243,7 @@ namespace Tour_booking_update
             // 
             lblExpiry.AutoSize = true;
             lblExpiry.Font = new Font("Segoe UI", 9F);
-            lblExpiry.Location = new Point(25, 520);
+            lblExpiry.Location = new Point(25, 416);
             lblExpiry.Name = "lblExpiry";
             lblExpiry.Size = new Size(53, 20);
             lblExpiry.TabIndex = 10;
@@ -248,7 +254,7 @@ namespace Tour_booking_update
             txtExpiry.BorderStyle = BorderStyle.FixedSingle;
             txtExpiry.Font = new Font("Segoe UI", 11F);
             txtExpiry.ForeColor = Color.Gray;
-            txtExpiry.Location = new Point(25, 546);
+            txtExpiry.Location = new Point(25, 437);
             txtExpiry.Margin = new Padding(3, 4, 3, 4);
             txtExpiry.MaxLength = 7;
             txtExpiry.Name = "txtExpiry";
@@ -260,7 +266,7 @@ namespace Tour_booking_update
             // 
             lblCVV.AutoSize = true;
             lblCVV.Font = new Font("Segoe UI", 9F);
-            lblCVV.Location = new Point(286, 520);
+            lblCVV.Location = new Point(286, 416);
             lblCVV.Name = "lblCVV";
             lblCVV.Size = new Size(40, 20);
             lblCVV.TabIndex = 8;
@@ -270,7 +276,7 @@ namespace Tour_booking_update
             // 
             txtCVV.BorderStyle = BorderStyle.FixedSingle;
             txtCVV.Font = new Font("Segoe UI", 11F);
-            txtCVV.Location = new Point(286, 546);
+            txtCVV.Location = new Point(286, 437);
             txtCVV.Margin = new Padding(3, 4, 3, 4);
             txtCVV.MaxLength = 4;
             txtCVV.Name = "txtCVV";
@@ -281,7 +287,7 @@ namespace Tour_booking_update
             // 
             lblCardTitle.AutoSize = true;
             lblCardTitle.Font = new Font("Segoe UI", 9F);
-            lblCardTitle.Location = new Point(25, 600);
+            lblCardTitle.Location = new Point(25, 480);
             lblCardTitle.Name = "lblCardTitle";
             lblCardTitle.Size = new Size(145, 20);
             lblCardTitle.TabIndex = 6;
@@ -292,7 +298,7 @@ namespace Tour_booking_update
             txtCardTitle.BorderStyle = BorderStyle.FixedSingle;
             txtCardTitle.Font = new Font("Segoe UI", 10F);
             txtCardTitle.ForeColor = Color.Gray;
-            txtCardTitle.Location = new Point(25, 626);
+            txtCardTitle.Location = new Point(25, 501);
             txtCardTitle.Margin = new Padding(3, 4, 3, 4);
             txtCardTitle.Name = "txtCardTitle";
             txtCardTitle.Size = new Size(495, 30);
@@ -305,7 +311,7 @@ namespace Tour_booking_update
             chkRemember.Checked = true;
             chkRemember.CheckState = CheckState.Checked;
             chkRemember.Font = new Font("Segoe UI", 9.5F);
-            chkRemember.Location = new Point(25, 680);
+            chkRemember.Location = new Point(25, 544);
             chkRemember.Margin = new Padding(3, 4, 3, 4);
             chkRemember.Name = "chkRemember";
             chkRemember.Size = new Size(172, 25);
@@ -317,7 +323,7 @@ namespace Tour_booking_update
             // 
             lblAmount.AutoSize = true;
             lblAmount.Font = new Font("Segoe UI", 9F);
-            lblAmount.Location = new Point(24, 741);
+            lblAmount.Location = new Point(23, 573);
             lblAmount.Name = "lblAmount";
             lblAmount.Size = new Size(139, 20);
             lblAmount.TabIndex = 2;
@@ -327,7 +333,7 @@ namespace Tour_booking_update
             // 
             txtAmount.BorderStyle = BorderStyle.FixedSingle;
             txtAmount.Font = new Font("Segoe UI", 11F);
-            txtAmount.Location = new Point(25, 770);
+            txtAmount.Location = new Point(25, 597);
             txtAmount.Margin = new Padding(3, 4, 3, 4);
             txtAmount.Name = "txtAmount";
             txtAmount.Size = new Size(228, 32);
@@ -341,30 +347,20 @@ namespace Tour_booking_update
             btnConfirm.FlatStyle = FlatStyle.Flat;
             btnConfirm.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             btnConfirm.ForeColor = Color.DarkTurquoise;
-            btnConfirm.Location = new Point(25, 860);
+            btnConfirm.Location = new Point(25, 637);
             btnConfirm.Margin = new Padding(3, 4, 3, 4);
             btnConfirm.Name = "btnConfirm";
-            btnConfirm.Size = new Size(495, 59);
+            btnConfirm.Size = new Size(495, 47);
             btnConfirm.TabIndex = 0;
             btnConfirm.Text = "CONFIRM PAYMENT";
             btnConfirm.UseVisualStyleBackColor = false;
             // 
-            // btnsubmet
-            // 
-            btnsubmet.Location = new Point(330, 700);
-            btnsubmet.Name = "btnsubmet";
-            btnsubmet.Size = new Size(123, 29);
-            btnsubmet.TabIndex = 29;
-            btnsubmet.Text = "Submet";
-            btnsubmet.UseVisualStyleBackColor = true;
-            // 
-            // Payment
+            // payment
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(549, 946);
-            Controls.Add(btnsubmet);
+            ClientSize = new Size(548, 686);
             Controls.Add(btnConfirm);
             Controls.Add(txtAmount);
             Controls.Add(lblAmount);
@@ -396,9 +392,10 @@ namespace Tour_booking_update
             Margin = new Padding(3, 4, 3, 4);
             MaximizeBox = false;
             MinimizeBox = false;
-            Name = "Payment";
+            Name = "payment";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Payment ";
+            FormClosed += payment_FormClosed;
             ResumeLayout(false);
             PerformLayout();
 
@@ -440,6 +437,5 @@ namespace Tour_booking_update
         private Label lblAmount;
         private TextBox txtAmount;
         private Button btnConfirm;
-        private Button btnsubmet;
     }
 }

@@ -8,15 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Tour_booking_update
+namespace Tour_Booking
 {
-    public partial class Payment : Form
+    public partial class payment : Form
     {
-        public Payment()
+        public payment()
         {
             InitializeComponent();
         }
 
-        
+        private void payment_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            booking b1 = new booking();
+            b1.Show();
+        }
     }
 }

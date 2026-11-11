@@ -91,7 +91,6 @@
             btntripmanagement.TabIndex = 7;
             btntripmanagement.Text = "Trip Management";
             btntripmanagement.UseVisualStyleBackColor = true;
-            btntripmanagement.Click += btntripmanagement_Click;
             // 
             // pcbprofile
             // 

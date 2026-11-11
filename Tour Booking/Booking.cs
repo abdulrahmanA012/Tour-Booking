@@ -8,48 +8,26 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Tour_booking_update.frmbooking
+namespace Tour_Booking
 {
-    public partial class Booking : Form
+    public partial class booking : Form
     {
-        public Booking()
+        public booking()
         {
             InitializeComponent();
         }
 
-        private void rdoCard_CheckedChanged(object sender, EventArgs e)
+        private void booking_FormClosed(object sender, FormClosedEventArgs e)
         {
-
+            mainform m3 = new mainform();
+            m3.Show();
         }
 
-        private void btnClearBooking_Click(object sender, EventArgs e)
+        private void btnAddBooking_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void lblTravelers_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dgvBookings_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void cmbTour_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void grpPayment_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnBackBookings_Click(object sender, EventArgs e)
-        {
-            
+           payment p = new payment();
+            p.Show();
+            this.Hide();
         }
     }
 }

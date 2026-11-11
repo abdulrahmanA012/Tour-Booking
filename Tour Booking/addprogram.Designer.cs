@@ -1,4 +1,4 @@
-namespace tourbooking
+﻿namespace Tour_Booking
 {
     partial class addprogram
     {
@@ -20,12 +20,11 @@ namespace tourbooking
             base.Dispose(disposing);
         }
 
-
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -72,7 +71,7 @@ namespace tourbooking
             pnlHeader.Location = new Point(0, 0);
             pnlHeader.Margin = new Padding(3, 4, 3, 4);
             pnlHeader.Name = "pnlHeader";
-            pnlHeader.Size = new Size(823, 94);
+            pnlHeader.Size = new Size(827, 94);
             pnlHeader.TabIndex = 2;
             // 
             // lblTitle
@@ -389,14 +388,13 @@ namespace tourbooking
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(247, 249, 248);
-            ClientSize = new Size(823, 800);
+            ClientSize = new Size(827, 704);
             Controls.Add(grpAdd);
             Controls.Add(pnlHeader);
             Margin = new Padding(3, 4, 3, 4);
             Name = "addprogram";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Add Program";
-            FormClosed += addprogram_FormClosed;
             pnlHeader.ResumeLayout(false);
             pnlHeader.PerformLayout();
             grpAdd.ResumeLayout(false);
@@ -437,5 +435,5 @@ namespace tourbooking
         private System.Windows.Forms.Button btnBrowse;
         private System.Windows.Forms.TextBox lblDestination;
         private TextBox txtDescription;
-    } 
+    }
 }

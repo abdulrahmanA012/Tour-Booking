@@ -7,8 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Tour_booking_update.frmbooking;
-using tourbooking;
 
 namespace Tour_Booking
 {
@@ -38,16 +36,9 @@ namespace Tour_Booking
             this.Hide();
         }
 
-        private void btntripmanagement_Click(object sender, EventArgs e)
-        {
-            addprogram a = new addprogram();
-            a.Show();
-            this.Hide();
-        }
-
         private void btnbooking_Click(object sender, EventArgs e)
         {
-           Booking b = new Booking();
+            booking b = new booking();
             b.Show();
             this.Hide();
         }
