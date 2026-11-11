@@ -213,7 +213,7 @@
             // lblTravelers
             // 
             lblTravelers.AutoSize = true;
-            lblTravelers.Location = new Point(17, 92);
+            lblTravelers.Location = new Point(2, 89);
             lblTravelers.Name = "lblTravelers";
             lblTravelers.Size = new Size(146, 20);
             lblTravelers.TabIndex = 14;
@@ -323,6 +323,7 @@
             btnCancelBooking.TabIndex = 26;
             btnCancelBooking.Text = "Cancel Booking";
             btnCancelBooking.UseVisualStyleBackColor = true;
+            btnCancelBooking.Click += btnCancelBooking_Click;
             // 
             // btnClearBooking
             // 
@@ -333,6 +334,7 @@
             btnClearBooking.TabIndex = 27;
             btnClearBooking.Text = "Clear";
             btnClearBooking.UseVisualStyleBackColor = true;
+            btnClearBooking.Click += btnClearBooking_Click;
             // 
             // btnBackBookings
             // 
@@ -344,6 +346,7 @@
             btnBackBookings.TabIndex = 32;
             btnBackBookings.Text = "Back";
             btnBackBookings.UseVisualStyleBackColor = true;
+            btnBackBookings.Click += btnBackBookings_Click;
             // 
             // booking
             // 

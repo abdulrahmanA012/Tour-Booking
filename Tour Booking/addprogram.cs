@@ -16,5 +16,11 @@ namespace Tour_Booking
         {
             InitializeComponent();
         }
+
+        private void addprogram_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            mainform m4 = new mainform();
+            m4.Show();
+        }
     }
 }

@@ -395,6 +395,7 @@
             Name = "addprogram";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Add Program";
+            FormClosed += addprogram_FormClosed;
             pnlHeader.ResumeLayout(false);
             pnlHeader.PerformLayout();
             grpAdd.ResumeLayout(false);

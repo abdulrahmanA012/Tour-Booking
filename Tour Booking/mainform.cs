@@ -42,5 +42,12 @@ namespace Tour_Booking
             b.Show();
             this.Hide();
         }
+
+        private void btntripmanagement_Click(object sender, EventArgs e)
+        {
+            addprogram a = new addprogram();
+            a.Show();
+            this.Hide();
+        }
     }
 }
