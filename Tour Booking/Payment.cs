@@ -22,5 +22,15 @@ namespace Tour_Booking
             booking b1 = new booking();
             b1.Show();
         }
+
+        private void txtCardNumber_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnConfirm_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

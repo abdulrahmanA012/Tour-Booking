@@ -22,5 +22,35 @@ namespace Tour_Booking
             mainform m4 = new mainform();
             m4.Show();
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtName.Clear();
+            lblDestination.Clear();
+            txtRating.Clear();
+            txtNotes.Clear();
+            txtDescription.Clear();
+            cmbCategory.SelectedIndex = -1;
+            nudDuration.Value = 0;
+            nudMaxParticipants.Value = 1;
+            txtName.Focus();
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            if (txtName.Text == "")
+            {
+                MessageBox.Show("Enter program name");
+                return;
+            }
+
+            if (cmbCategory.SelectedIndex == -1)
+            {
+                MessageBox.Show("Select category");
+                return;
+            }
+
+            MessageBox.Show("Program added");
+        }
     }
 }

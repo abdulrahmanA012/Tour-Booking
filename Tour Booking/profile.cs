@@ -25,5 +25,15 @@ namespace Tour_Booking
             m.Show();
         }
 
+        private void btnreset_Click(object sender, EventArgs e)
+        {
+            txtprofilefirstname.Clear();
+            txtprofilelastname.Clear();
+            txtprofileemail.Clear();
+            txtprofilepassword.Clear();
+            txtprofilephone.Clear();
+            txtprofileage.Clear();
+            txtprofilefirstname.Focus();
+        }
     }
 }

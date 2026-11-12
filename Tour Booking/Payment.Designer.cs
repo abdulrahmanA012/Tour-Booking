@@ -238,6 +238,7 @@
             txtCardNumber.Name = "txtCardNumber";
             txtCardNumber.Size = new Size(495, 32);
             txtCardNumber.TabIndex = 11;
+            txtCardNumber.TextChanged += txtCardNumber_TextChanged;
             // 
             // lblExpiry
             // 
@@ -354,6 +355,7 @@
             btnConfirm.TabIndex = 0;
             btnConfirm.Text = "CONFIRM PAYMENT";
             btnConfirm.UseVisualStyleBackColor = false;
+            btnConfirm.Click += btnConfirm_Click;
             // 
             // payment
             // 

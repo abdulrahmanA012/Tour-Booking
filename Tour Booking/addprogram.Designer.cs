@@ -367,6 +367,7 @@
             btnAdd.TabIndex = 4;
             btnAdd.Text = "Add program";
             btnAdd.UseVisualStyleBackColor = false;
+            btnAdd.Click += btnAdd_Click;
             // 
             // btnClear
             // 
@@ -381,6 +382,7 @@
             btnClear.TabIndex = 5;
             btnClear.Text = "Clear";
             btnClear.UseVisualStyleBackColor = false;
+            btnClear.Click += btnClear_Click;
             // 
             // addprogram
             // 
@@ -408,33 +410,33 @@
         }
         #endregion
 
-        private System.Windows.Forms.Panel pnlHeader;
-        private System.Windows.Forms.Label lblTitle;
-        private System.Windows.Forms.GroupBox grpAdd;
-        private System.Windows.Forms.TextBox txtName;
-        private System.Windows.Forms.Label lblCategory;
-        private System.Windows.Forms.ComboBox cmbCategory;
-        private System.Windows.Forms.Label lblRating;
-        private System.Windows.Forms.TextBox txtRating;
-        private System.Windows.Forms.Label lblNotes;
-        private System.Windows.Forms.TextBox txtNotes;
-        private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.Button btnClear;
-        private System.Windows.Forms.Label lbldetination;
-        private System.Windows.Forms.Label lblName;
-        private System.Windows.Forms.Label lblDuration;
-        private System.Windows.Forms.NumericUpDown nudDuration;
-        private System.Windows.Forms.Label lblMax;
-        private System.Windows.Forms.NumericUpDown nudMaxParticipants;
-        private System.Windows.Forms.Label lblStart;
-        private System.Windows.Forms.DateTimePicker dtpStart;
-        private System.Windows.Forms.Label lblEnd;
-        private System.Windows.Forms.DateTimePicker dtpEnd;
-        private System.Windows.Forms.Label lblDescription;
-        private System.Windows.Forms.Label lblImage;
-        private System.Windows.Forms.PictureBox pbTour;
-        private System.Windows.Forms.Button btnBrowse;
-        private System.Windows.Forms.TextBox lblDestination;
+        private Panel pnlHeader;
+        private Label lblTitle;
+        private GroupBox grpAdd;
+        private TextBox txtName;
+        private Label lblCategory;
+        private ComboBox cmbCategory;
+        private Label lblRating;
+        private TextBox txtRating;
+        private Label lblNotes;
+        private TextBox txtNotes;
+        private Button btnAdd;
+        private Button btnClear;
+        private Label lbldetination;
+        private Label lblName;
+        private Label lblDuration;
+        private NumericUpDown nudDuration;
+        private Label lblMax;
+        private NumericUpDown nudMaxParticipants;
+        private Label lblStart;
+        private DateTimePicker dtpStart;
+        private Label lblEnd;
+        private DateTimePicker dtpEnd;
+        private Label lblDescription;
+        private Label lblImage;
+        private PictureBox pbTour;
+        private Button btnBrowse;
+        private TextBox lblDestination;
         private TextBox txtDescription;
     }
 }

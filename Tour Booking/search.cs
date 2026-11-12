@@ -39,5 +39,12 @@ namespace Tour_Booking
             dgvsearch.Visible = false;
             btnback.Visible = false;
         }
+
+        private void btnclear_Click(object sender, EventArgs e)
+        {
+            comboBox1.SelectedIndex = -1;
+            comboBox2.SelectedIndex = -1;
+
+        }
     }
 }
